@@ -1,0 +1,64 @@
+<h1 class="code-line">Pastebin - <a href="/">back</a></h1>
+<p class="has-line-data">
+  <img
+    src="https://media.giphy.com/media/3oKGzvg3gGxSS3O38A/giphy.gif"
+    alt=""
+  />
+</p>
+<h2 class="code-line">Goal</h2>
+<p class="has-line-data">
+  Block the submit if the form is empty and display the created link.
+</p>
+<h2 class="code-line">To do</h2>
+<ol start="1">
+  <li class="has-line-data">
+    Transform the component into a <strong>class</strong>
+  </li>
+  <li class="has-line-data">
+    Listen the submit event of the form (
+    <a target="_blank" href="https://reactjs.org/docs/forms.html">help</a>)
+  </li>
+  <li class="has-line-data">
+    Prevent the refresh of the page with{" "}
+    <a
+      target="_blank"
+      href="https://developer.mozilla.org/en-US/docs/Web/API/Event/preventDefault"
+    >
+      PreventDefault() </a
+    >{" "} (<a
+      target="_blank"
+      href="https://reactjs.org/docs/handling-events.html"
+      >help</a
+    >)
+  </li>
+  <li class="has-line-data">
+    Keep the value of <code>filename</code>, <code>expiration</code> &amp;{" "}
+    <code>code</code> in the state
+  </li>
+  <li class="has-line-data">
+    On submit, check if any property of the state (<code>filename</code>,{" "}
+    <code>expiration</code> &amp; <code>code</code>) is empty, if not submit the
+    form
+  </li>
+  <li class="has-line-data">
+    If one element is empty, display a message
+  </li>
+  <li class="has-line-data">
+    Replace <code>~~~~</code> by the generated link given by the API
+  </li>
+</ol>
+<p class="has-line-data">
+  On this exercise, you can use{" "}
+  <a
+    target="_blank"
+    href="https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API"
+  >
+    Fetch </a
+  >{" "} or <a target="_blank" href="https://github.com/axios/axios">Axios</a>.
+</p>
+<p class="has-line-data">
+  You can find the API documentation here:{" "}
+  <a target="_blank" href="https://pastebin.com/api"
+    >https://pastebin.com/api</a
+  >
+</p>
